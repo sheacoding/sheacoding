@@ -1,0 +1,14 @@
+<!--
+[INPUT]: 依赖“晓峰”个人 IP 名称与朱砂印视觉规范
+[OUTPUT]: 对外提供可复用的晓峰方印
+[POS]: assets 的身份组件，用于卷首与卷尾形成首尾呼应
+[PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">晓峰朱砂印</title>
+  <rect x="13" y="13" width="94" height="94" rx="7" fill="none" stroke="#b74338" stroke-width="5"/>
+  <rect x="22" y="22" width="76" height="76" rx="3" fill="#b74338" opacity=".08"/>
+  <path d="M25 11 L38 15 M82 106 L105 100 M10 79 L15 94" stroke="#b74338" stroke-width="3" opacity=".45"/>
+  <text x="60" y="56" text-anchor="middle" font-family="STKaiti, KaiTi, serif" font-size="36" font-weight="700" fill="#b74338">晓</text>
+  <text x="60" y="91" text-anchor="middle" font-family="STKaiti, KaiTi, serif" font-size="36" font-weight="700" fill="#b74338">峰</text>
+</svg>

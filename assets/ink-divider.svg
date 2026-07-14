@@ -1,0 +1,27 @@
+<!--
+[INPUT]: 依赖浏览器原生 SVG 渲染能力
+[OUTPUT]: 对外提供 README 各卷之间可复用的水墨山云分隔视觉
+[POS]: assets 的节奏组件，以墨蓝、青碧与朱砂建立整页古风视觉语法
+[PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 108" role="img" aria-labelledby="title">
+  <title id="title">水墨山云分隔</title>
+  <defs>
+    <linearGradient id="ink" x1="0" x2="1">
+      <stop offset="0" stop-color="#1e2a3a" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#314e66" stop-opacity=".48"/>
+      <stop offset=".5" stop-color="#1e2a3a" stop-opacity=".72"/>
+      <stop offset=".82" stop-color="#314e66" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#1e2a3a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 78 C110 75 154 62 226 65 C310 68 341 49 414 54 C484 59 522 41 600 48 C680 55 719 39 790 51 C865 63 910 55 978 65 C1052 76 1112 70 1200 76" fill="none" stroke="url(#ink)" stroke-width="2"/>
+  <path d="M310 65 L372 29 L421 63 Z" fill="#314e66" opacity=".09"/>
+  <path d="M354 63 L433 13 L505 62 Z" fill="#314e66" opacity=".14"/>
+  <path d="M415 62 L477 34 L541 64 Z" fill="#4fa7b3" opacity=".08"/>
+  <path d="M702 61 L765 25 L821 62 Z" fill="#314e66" opacity=".11"/>
+  <path d="M759 62 L838 18 L906 66 Z" fill="#314e66" opacity=".07"/>
+  <path d="M85 83 C125 61 165 61 205 83 M995 82 C1032 61 1074 61 1115 82" fill="none" stroke="#4fa7b3" stroke-width="2" opacity=".35"/>
+  <circle cx="600" cy="48" r="4" fill="#b74338"/>
+  <circle cx="600" cy="48" r="10" fill="none" stroke="#b74338" stroke-opacity=".22"/>
+</svg>
