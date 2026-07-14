@@ -46,5 +46,3 @@ Build the smallest useful thing. Keep the system observable. Document the decisi
 <p align="center">
   <sub>Learning computers and English for the same reason: freedom.</sub>
 </p>
-
-<!-- profile-refresh: 2026-07-14 -->
