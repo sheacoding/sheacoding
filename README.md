@@ -35,7 +35,7 @@
   我关心的从来不是技术看起来多厉害，而是它能否走出屏幕，解决一个真实问题。
 </p>
 
-<table>
+<table align="center" width="100%">
   <tr>
     <td width="33%" align="center">
       <sub>所 修</sub><br />
@@ -62,29 +62,22 @@
 
 <p align="center"><sub>器不在多，在于经得起真实使用。</sub></p>
 
-<img src="./assets/project-map.svg" alt="晓峰项目行迹：Pyra、AdRevenuePulse、mcp-reminder、mpy-studio" width="100%" />
+<img src="./assets/project-map.svg" alt="晓峰项目行迹：AdRevenuePulse、mcp-reminder、mpy-studio" width="100%" />
 
-<table>
+<table align="center" width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3>壹 · <a href="https://github.com/sheacoding/Pyra">Pyra</a></h3>
-      <p>轻量跨平台 Python IDE。把运行、调试与 <code>uv</code> 环境管理收进一个干净工作台。</p>
-      <sub>Tauri · Rust · React · TypeScript</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>贰 · <a href="https://github.com/sheacoding/ad-revenue-pulse">AdRevenuePulse</a></h3>
+    <td width="33%" valign="top">
+      <h3>壹 · <a href="https://github.com/sheacoding/ad-revenue-pulse">AdRevenuePulse</a></h3>
       <p>私有化聚合多个微信流量主账号的收益、看板与定时报表。</p>
       <sub>Bun · Hono · PostgreSQL · React</sub>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>叁 · <a href="https://github.com/sheacoding/mcp-reminder">mcp-reminder</a></h3>
+    <td width="33%" valign="top">
+      <h3>贰 · <a href="https://github.com/sheacoding/mcp-reminder">mcp-reminder</a></h3>
       <p>支持自然语言时间解析与主动通知的 MCP 闹钟和待办服务。</p>
       <sub>Python · MCP</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>肆 · <a href="https://github.com/sheacoding/mpy-studio">mpy-studio</a></h3>
+    <td width="33%" valign="top">
+      <h3>叁 · <a href="https://github.com/sheacoding/mpy-studio">mpy-studio</a></h3>
       <p>面向 ESP32 / ESP32-S3 的 MicroPython 开发、设备控制与 Wokwi 仿真扩展。</p>
       <sub>Python · TypeScript · VS Code</sub>
     </td>
@@ -96,7 +89,7 @@
 
 <h2 align="center">卷二 · 近思录</h2>
 
-<table>
+<table align="center" width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
       <h3>先 行</h3>
@@ -119,7 +112,7 @@
 
 <h3>眼下三件事</h3>
 
-- 让 **Pyra** 成为更简单的 Python 开发入口
+- 让自托管数据与自动化工具更简单、更可靠
 - 把 AI Coding Agent 从演示变成可复用、可验证的工程工作流
 - 连接软件、硬件与教育，让工具真正走出屏幕
 
