@@ -1,23 +1,24 @@
 <!--
-[INPUT]: 依赖 assets/xiaofeng-github-hero.png、assets/ink-divider.svg、assets/project-map.svg 与 assets/xiaofeng-seal.svg，以及 GitHub 公开仓库和 ericoding.cc 的项目事实
-[OUTPUT]: 对外提供“晓峰”的古风 GitHub 个人主页、项目器物志、近思录与站外入口
-[POS]: Profile 仓库的唯一展示入口，以数字长卷结构统一个人 IP、作品证据和长期方向
+[INPUT]: 依赖晓峰 Wiki 的身份、经历与写作风格，依赖 assets 下四项视觉资产，以及 GitHub 公开仓库和 ericoding.cc 的项目事实
+[OUTPUT]: 对外提供“晓峰”的古风 GitHub 个人主页、真实经历、在做项目与当前关注
+[POS]: Profile 仓库的唯一展示入口，以数字长卷承载一个科创教育从业者的 AI 落地实践
+[HALLMARK]: copy-only · pre-emit critique P5 H4 E4 S5 R4 V4 · honest copy pass
 [PROTOCOL]: 变更时更新此头部，然后检查 AGENTS.md
 -->
 
 <p align="center">
-  <img src="./assets/xiaofeng-github-hero.png" alt="晓峰：动手做，做真东西，长期主义" width="100%" />
+  <img src="./assets/xiaofeng-github-hero.png" alt="晓峰古风个人 IP 横幅" width="100%" />
 </p>
 
 <p align="center">
   <img src="./assets/xiaofeng-seal.svg" alt="晓峰印" width="72" />
 </p>
 
-<h1 align="center">晓峰 · 一介写代码的手艺人</h1>
+<h1 align="center">晓峰 · Eric</h1>
 
 <p align="center">
-  <strong>以代码为器，以问题为师。</strong><br />
-  <sub>在古风与现代技术之间，做能运行、能验证、能交付的东西。</sub>
+  <strong>白天教孩子做项目，晚上帮人把 AI 工具跑起来。</strong><br />
+  <sub>上海 · 科创教育 · AI 工具接入 · 小工具开发</sub>
 </p>
 
 <p align="center">
@@ -28,29 +29,30 @@
 
 <img src="./assets/ink-divider.svg" alt="水墨分隔" width="100%" />
 
-<h2 align="center">卷首 · 此间人</h2>
+<h2 align="center">卷首 · 我是谁</h2>
 
 <p align="center">
-  古风是衣，工程是骨。<br />
-  我关心的从来不是技术看起来多厉害，而是它能否走出屏幕，解决一个真实问题。
+  我从陕西紫阳的大山里来到上海，大学读通信工程，最后拿的是本科结业证。<br />
+  做过技术支持、软件开发，现在做 STEAM 教育。<br />
+  一路没那么漂亮，不过我一直喜欢折腾 Linux、Python、Rust、AI 和硬件。
 </p>
 
 <table align="center" width="100%">
   <tr>
     <td width="33%" align="center">
-      <sub>所 修</sub><br />
-      <strong>AI 开发工具</strong><br />
-      <sub>让复杂能力有简单入口</sub>
+      <sub>白 天</sub><br />
+      <strong>科创教育</strong><br />
+      <sub>教学、课程研发，陪孩子把想法做成项目</sub>
     </td>
     <td width="33%" align="center">
-      <sub>所 造</sub><br />
-      <strong>自托管自动化</strong><br />
-      <sub>让数据与系统归自己掌控</sub>
+      <sub>晚 上</sub><br />
+      <strong>AI 与软件</strong><br />
+      <sub>写脚本、搭知识库、接自动化，也做自用工具</sub>
     </td>
     <td width="33%" align="center">
-      <sub>所 传</sub><br />
-      <strong>硬件与科创教育</strong><br />
-      <sub>让创造发生在真实世界</sub>
+      <sub>一 直 在 做</sub><br />
+      <strong>把工具接起来</strong><br />
+      <sub>把开发者的东西，接成普通人能用的东西</sub>
     </td>
   </tr>
 </table>
@@ -58,9 +60,9 @@
 <br />
 <img src="./assets/ink-divider.svg" alt="水墨分隔" width="100%" />
 
-<h2 align="center">卷一 · 器物志</h2>
+<h2 align="center">卷一 · 手上做过的东西</h2>
 
-<p align="center"><sub>器不在多，在于经得起真实使用。</sub></p>
+<p align="center"><sub>大多不是宏大计划。碰到一个具体问题，就顺手做出来。</sub></p>
 
 <img src="./assets/project-map.svg" alt="晓峰项目行迹：AdRevenuePulse、mcp-reminder、mpy-studio" width="100%" />
 
@@ -68,17 +70,17 @@
   <tr>
     <td width="33%" align="center" valign="top">
       <h3>壹 · <a href="https://github.com/sheacoding/ad-revenue-pulse">AdRevenuePulse</a></h3>
-      <p>私有化聚合多个微信流量主账号的收益、看板与定时报表。</p>
+      <p>多个流量主账号来回切太麻烦，所以做了个自托管看板，把收益和定时报表收在一起。</p>
       <sub>Bun · Hono · PostgreSQL · React</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <h3>贰 · <a href="https://github.com/sheacoding/mcp-reminder">mcp-reminder</a></h3>
-      <p>支持自然语言时间解析与主动通知的 MCP 闹钟和待办服务。</p>
+      <p>Agent 能听懂“明天下午提醒我”，还得真的到点来叫人。这是给它补上的闹钟。</p>
       <sub>Python · MCP</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <h3>叁 · <a href="https://github.com/sheacoding/mpy-studio">mpy-studio</a></h3>
-      <p>面向 ESP32 / ESP32-S3 的 MicroPython 开发、设备控制与 Wokwi 仿真扩展。</p>
+      <p>给 ESP32 / ESP32-S3 写 MicroPython 时，把开发、设备控制和 Wokwi 仿真放进 VS Code。</p>
       <sub>Python · TypeScript · VS Code</sub>
     </td>
   </tr>
@@ -87,49 +89,49 @@
 <br />
 <img src="./assets/ink-divider.svg" alt="水墨分隔" width="100%" />
 
-<h2 align="center">卷二 · 近思录</h2>
+<h2 align="center">卷二 · 我怎么做事</h2>
 
 <table align="center" width="100%">
   <tr>
     <td width="33%" align="center" valign="top">
-      <h3>先 行</h3>
-      <p>最小可运行，<br />胜过宏大设想。</p>
+      <h3>先跑起来</h3>
+      <p>先做一个能运行的版本。<br />跑不起来，讨论架构没意义。</p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h3>求 真</h3>
-      <p>让系统可观察，<br />让结论可验证。</p>
+      <h3>去看现场</h3>
+      <p>资料散在哪，流程卡在哪，<br />问清楚再接 AI。</p>
     </td>
     <td width="33%" align="center" valign="top">
-      <h3>留 痕</h3>
-      <p>记录关键决策，<br />不让系统依赖记忆。</p>
+      <h3>留条后路</h3>
+      <p>日志、文档、失败路径都留着。<br />出问题时别靠猜。</p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <strong>真正的长期主义，不是把路说得很远，而是把今天手上的东西做好。</strong>
+  <strong>模型再强，接不到资料、流程和具体的人手里，也就只是演示。</strong>
 </p>
 
-<h3 align="center">眼下三件事</h3>
+<h3 align="center">最近在折腾</h3>
 
 <p align="center">
-  让自托管数据与自动化工具更简单、更可靠<br />
-  把 AI Coding Agent 从演示变成可复用、可验证的工程工作流<br />
-  连接软件、硬件与教育，让工具真正走出屏幕
+  Claude Code、Agent Skills 和自托管自动化<br />
+  知识库、内容生产和公众号发布这条链路<br />
+  硬件与科创教育里，AI 到底能帮人动手到哪一步
 </p>
 
 <br />
 <img src="./assets/ink-divider.svg" alt="水墨分隔" width="100%" />
 
-<h2 align="center">卷尾 · 山水有相逢</h2>
+<h2 align="center">卷尾 · 还在路上</h2>
 
 <p align="center">
-  学计算机，也学英语。<br />
-  说到底，都是为了自由。
+  很多东西还在试。<br />
+  做成了就放出来，没做成也会留记录。
 </p>
 
 <p align="center">
-  <a href="https://ericoding.cc"><strong>入山门，见更多作品 →</strong></a>
+  <a href="https://ericoding.cc"><strong>去 ericoding.cc 看完整记录 →</strong></a>
 </p>
 
 <p align="center">
